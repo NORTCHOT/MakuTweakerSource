@@ -1,0 +1,414 @@
+<Page
+	x:Class="MakuTweakerNew.PCI" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:MakuTweakerNew" xmlns:controls="clr-namespace:MicaWPF.Controls;assembly=MicaWPF" xmlns:ui="http://schemas.modernwpf.com/2019"
+	Title="PCI">
+	<Grid>
+		<ScrollViewer
+			VerticalScrollBarVisibility="Visible"
+			HorizontalScrollBarVisibility="Hidden">
+			<Grid
+				Margin="20">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition
+						Width="250" />
+					<ColumnDefinition
+						Width="550" />
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="3" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="20" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="20" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="20" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="20" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="20" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="Auto" />
+					<RowDefinition
+						Height="*" />
+					<RowDefinition
+						Height="10" />
+				</Grid.RowDefinitions>
+				<TextBlock
+					Name="label"
+					Grid.Row="0"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="PCI"
+					FontSize="32"
+					FontFamily="Segoe UI Semibold"
+					Margin="0,-13,0,10" />
+				<TextBlock
+					Name="labelcpu"
+					Grid.Row="2"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="CPU"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold" />
+				<TextBlock
+					Name="cpul"
+					Grid.Row="3"
+					Grid.Column="0"
+					Text="Processor RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="cpue"
+					Grid.Row="3"
+					Grid.Column="1"
+					Text="CPU Name"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="cpucorel"
+					Grid.Row="4"
+					Grid.Column="0"
+					Text="CORES RRRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="cpucore"
+					Grid.Row="4"
+					Grid.Column="1"
+					Text="CPU Cores"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="threadsl"
+					Grid.Row="5"
+					Grid.Column="0"
+					Text="THREADS RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="threads"
+					Grid.Row="5"
+					Grid.Column="1"
+					Text="CPU Threads"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="corespeedl"
+					Grid.Row="6"
+					Grid.Column="0"
+					Text="CORESPEED RRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="corespeed"
+					Grid.Row="6"
+					Grid.Column="1"
+					Text="CPU Core Speed"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="l3cashl"
+					Grid.Row="7"
+					Grid.Column="0"
+					Text="CACHE L3 RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="l3cash"
+					Grid.Row="7"
+					Grid.Column="1"
+					Text="CPU L3 Cache"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="video"
+					Grid.Row="9"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="GRAPHICS CARD"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold" />
+				<TextBlock
+					Name="videol"
+					Grid.Row="10"
+					Grid.Column="0"
+					Text="NAME RRRRRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="videon"
+					Grid.Row="10"
+					Grid.Column="1"
+					Text="GPU NAME"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight"
+					Margin="0,0,10,0" />
+				<TextBlock
+					Name="vraml"
+					Grid.Row="11"
+					Grid.Column="0"
+					Text="TOTAL VRAM RRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="vram"
+					Grid.Row="11"
+					Grid.Column="1"
+					Text="TOTAL VRAM"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight"
+					Margin="0,0,10,0" />
+				<ComboBox
+					Name="videoComboBox"
+					Grid.Row="12"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					FontSize="18"
+					Margin="0,5,120,0"
+					SelectionChanged="VideoComboBox_SelectionChanged" />
+				<TextBlock
+					Name="labelRAM"
+					Grid.Row="14"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="RAM"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold" />
+				<TextBlock
+					Name="raml"
+					Grid.Row="15"
+					Grid.Column="0"
+					Text="TOTAL RAM RRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="rama"
+					Grid.Row="15"
+					Grid.Column="1"
+					Text="RAM"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ddrl"
+					Grid.Row="16"
+					Grid.Column="0"
+					Text="DDR TYPE RRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ddre"
+					Grid.Row="16"
+					Grid.Column="1"
+					Text="RAM DDR"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="freql"
+					Grid.Row="17"
+					Grid.Column="0"
+					Text="FREQ RRRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="freq"
+					Grid.Row="17"
+					Grid.Column="1"
+					Text="RAM FREQ"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="MOTHERBOARD"
+					Grid.Row="19"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="MOTHERBOARD"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold" />
+				<TextBlock
+					Name="mbnamel"
+					Grid.Row="20"
+					Grid.Column="0"
+					Text="NAME RRRRRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="mbname"
+					Grid.Row="20"
+					Grid.Column="1"
+					Text="MOTHERBOARD NAME"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="biosverl"
+					Grid.Row="21"
+					Grid.Column="0"
+					Text="BIOS VER RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="biosver"
+					Grid.Row="21"
+					Grid.Column="1"
+					Text="VER"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="biosdatel"
+					Grid.Row="22"
+					Grid.Column="0"
+					Text="BIOS DATE RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="biosdate"
+					Grid.Row="22"
+					Grid.Column="1"
+					Text="BIOS DATE"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ssdLabel"
+					Grid.Row="24"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="SSD, HDD, USB флешки"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold" />
+				<TextBlock
+					Name="ssdnLabel"
+					Grid.Row="25"
+					Grid.Column="0"
+					Text="NAME RRRRRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ssdnValue"
+					Grid.Row="25"
+					Grid.Column="1"
+					Text="SSD NAME"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ssdcLabel"
+					Grid.Row="26"
+					Grid.Column="0"
+					Text="CAPACITY RRRRRRRRR:"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<TextBlock
+					Name="ssdcValue"
+					Grid.Row="26"
+					Grid.Column="1"
+					Text="SSD SIZE"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight" />
+				<ComboBox
+					Name="ssdComboBox"
+					Grid.Row="27"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					FontSize="18"
+					Margin="0,5,120,0"
+					SelectionChanged="SSDComboBox_SelectionChanged" />
+				<TextBlock
+					Name="benchmarkLabel"
+					Grid.Row="29"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="Benchmark"
+					FontSize="24"
+					FontFamily="Segoe UI Semibold"
+					Margin="0,17,0,10" />
+				<StackPanel
+					Grid.Row="30"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Orientation="Horizontal">
+					<Button
+						Name="singleBench"
+						Content="StartBenchmark"
+						FontSize="20"
+						Padding="15,5,15,5"
+						Margin="0,0,10,0"
+						Click="singleBench_Click" />
+					<Button
+						Name="multiBench"
+						Content="StartMultiBenchmark"
+						FontSize="20"
+						Padding="15,5,15,5"
+						Margin="0,0,10,0"
+						Click="multiBench_Click" />
+					<Button
+						Name="lookresults"
+						Content="LookResults"
+						FontSize="20"
+						Padding="15,5,15,5"
+						Click="LookResults_Click" />
+				</StackPanel>
+				<TextBlock
+					Name="benchmarkResultText"
+					Grid.Row="31"
+					Grid.Column="0"
+					Grid.ColumnSpan="2"
+					Text="Press button to start a test"
+					FontSize="20"
+					FontFamily="Segoe UI Semilight"
+					Margin="0,10,0,0" />
+				<Grid
+					Row="32"
+					Column="0"
+					ColumnSpan="2" />
+			</Grid>
+		</ScrollViewer>
+	</Grid>
+</Page>
